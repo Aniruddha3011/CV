@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="port.js">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+     <div class="contaner">
+        <section  claas=" image "id="about">
+            <h2>About Me</h2>
+            <p class="words">A passionate computer engineering student currently in the second year, with hands-on experience in developing projects in Java, C++, and web development using HTML, CSS, and JavaScript Known for a strong problemsolving mindset and a drive to learn new technologies Skilled at translating ideas into realworld applications through efficient code and userfriendly design </p>
+        </section>
+
+     </div>
+   
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1</h3>
+            <p>ATM MACHINE</p>
+            <p>Developed a javabase ATM machine simulation that allows users to perform banking operations such as balance inquiries, cash withdrawals, deposits. Implemented secure authentication, efficient transaction handling, and userfriendly console navigation to  real world ATM functionalities</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2</h3>
+            <p>CURRENCY CONVERTER</p>
+            <p>Built a javabase  currency converter application that enables users to convert amounts between multiple currencies Implemented realtime calculations userfriendly input options, and accurate exchange rates to provide seamless currency conversion for a variety of international currencies</p>
+       
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+            <li>JAVA</li>
+            <li>C++</li>
+            <li>MYSQL DATABASE</li>
+            <li>PYTHON</li>
+            <!-- Add more skills as needed -->
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="button" onclick="submitForm()">Send Message</button>
+        </form>
+        <p id="response-message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
